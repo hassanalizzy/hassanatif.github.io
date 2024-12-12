@@ -330,7 +330,7 @@ section h2 {
 
 .form-group input,
 .form-group textarea {
-  width: 100%;
+  width: 97%;
   padding: 10px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 5px;
@@ -363,4 +363,25 @@ section h2 {
 .btn-submit:hover {
   background: #fff;
   color: #6345b7;
+}
+/* Scroll Progress Bar */
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background: #6345b7;
+  width: 0;
+  z-index: 9999;
+}
+
+/* Tilt Effect on Projects */
+.project-item {
+  perspective: 1000px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transform-origin: center;
 }
