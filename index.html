@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hassan Atif | Portfolio</title>
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="#hero" class="home-btn nav-item active" data-link="home">Home</a>
+    <div class="nav-links">
+      <a href="#about" class="nav-item" data-link="about">About Me</a>
+      <a href="#projects" class="nav-item" data-link="projects">Projects</a>
+      <a href="#contact" class="nav-item" data-link="contact">Contact</a>
+    </div>
+  </nav>
+
+  <header id="hero">
+    <div class="vertical-container">
+      <div class="vertical-text">Student</div>
+      <div class="horizontal-text">IT</div>
+    </div>
+
+    <div class="hero-name-container">
+      <h1 class="hero-name">Hassan<br>Atif</h1>
+    </div>
+
+    <div class="social-icons">
+      <a href="#" title="X (Twitter)"><i class="bi bi-twitter"></i></a>
+      <a href="#" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="#" title="GitHub"><i class="bi bi-github"></i></a>
+    </div>
+
+    <div class="scroll-indicator">
+      <i class="bi bi-chevron-down"></i>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="about-container">
+      <div class="about-title">
+        <span>About Me</span>
+      </div>
+      <div class="about-content">
+        <p>IT Student graduating from<br>California State University Northridge<br><strong>Spring 2025</strong></p>
+        <p>Big computer enthusiast with an<br>open mind always ready to learn</p>
+        <p>Looking to start a career in the IT<br>& Cybersecurity industry</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="projects">
+    <div class="projects-container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-item">
+          <img src="images/project1.png" alt="Project 1" class="project-image">
+          <p class="project-description">Project 1: A web application to navigate university campuses. Created using Django and REACT, it asks students to sign up and make a schedule, then gives the student quick and easy to use buttons to navigate to every single class.</p>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-item">
+          <img src="images/project2.png" alt="Project 2" class="project-image">
+          <p class="project-description">Project 2: An e-commerce auto-checkout bot to help purchase limited items. With many limited items selling fast nowadays, I created a bot that is way faster than any human that can purchase limited drop items for me without me having to do the work.</p>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="contact-container">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out! Fill in the form below, and I’ll get back to you as soon as possible.</p>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="_replyto" placeholder="Your Email Address" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
