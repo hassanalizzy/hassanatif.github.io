@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Typing effect for Hero Section
   const typingText = document.querySelector(".horizontal-text");
-  const originalText = "IT"; // Define the text you want to type
+  const originalText = "IT"; // Define the text
   let typingIndex = 0;
   
   const typeEffect = () => {
