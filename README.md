@@ -1,7 +1,7 @@
 # Portfolio Website Development
 
 ## Project Overview
-The **Portfolio Website Development** project aims to create a modern, responsive, and visually appealing website that showcases personal and professional accomplishments. This website will serve as a digital portfolio, highlighting the developer's skills, experiences, and projects completed throughout the semester.
+The **Portfolio Website Development** project aims to create a modern, responsive, and visually appealing website that showcases my personal and professional accomplishments. This website will serve as a digital portfolio, highlighting my skills, experiences, and projects completed throughout the semester.
 
 ## Objectives
 - Develop a professional portfolio website with a modern design.
