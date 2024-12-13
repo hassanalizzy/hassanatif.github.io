@@ -16,44 +16,39 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Nav Bar -->
-
+  <!-- Nav Bar -->
   <nav class="navbar">
     <a href="#hero" class="home-btn nav-item active" data-link="home">Home</a>
     <div class="nav-links">
       <a href="#about" class="nav-item" data-link="about">About Me</a>
       <a href="#projects" class="nav-item" data-link="projects">Projects</a>
+      <a href="#gallery" class="nav-item" data-link="gallery">Gallery</a>
       <a href="#contact" class="nav-item" data-link="contact">Contact</a>
     </div>
   </nav>
 
-    <!-- Hero/Background -->
-
+  <!-- Hero/Background -->
   <header id="hero">
     <div class="vertical-container">
       <div class="vertical-text">Student</div>
       <div class="horizontal-text">IT</div>
     </div>
-
     <div class="hero-name-container">
       <h1 class="hero-name">Hassan<br>Atif</h1>
     </div>
 
     <!-- Socials -->
-
     <div class="social-icons">
       <a href="https://x.com/hassanalizzy" title="X (Twitter)"><i class="bi bi-twitter"></i></a>
       <a href="https://www.linkedin.com/" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
       <a href="https://github.com/hassanalizzy" title="GitHub"><i class="bi bi-github"></i></a>
     </div>
-
     <div class="scroll-indicator">
       <i class="bi bi-chevron-down"></i>
     </div>
   </header>
 
-    <!-- About -->
-
+  <!-- About -->
   <section id="about">
     <div class="about-container">
       <div class="about-title">
@@ -66,26 +61,41 @@
       </div>
     </div>
   </section>
-  
-    <!-- Projects -->
 
+  <!-- Projects -->
   <section id="projects">
     <div class="projects-container">
       <h2>Projects</h2>
       <div class="projects-grid">
-        <!-- Project 1 -->
         <div class="project-item">
           <img src="images/project1.png" alt="Project 1" class="project-image">
-          <p class="project-description">Project 1: A web application to navigate university campuses. Created using Django and REACT, it asks students to sign up and make a schedule, then gives the student quick and easy to use buttons to navigate to every single class.</p>
+          <p class="project-description">Project 1: A web application to navigate university campuses.</p>
         </div>
-        <!-- Project 2 -->
         <div class="project-item">
           <img src="images/project2.png" alt="Project 2" class="project-image">
-          <p class="project-description">Project 2: An e-commerce auto-checkout bot to help purchase limited items. With many limited items selling fast nowadays, I created a bot that is way faster than any human that can purchase limited drop items for me without me having to do the work.</p>
+          <p class="project-description">Project 2: An e-commerce auto-checkout bot.</p>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <div class="gallery-container">
+      <h2>Car Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item"><img src="images/car1.jpg" alt="Car 1"></div>
+        <div class="gallery-item"><img src="images/car2.jpg" alt="Car 2"></div>
+        <div class="gallery-item"><img src="images/car3.jpg" alt="Car 3"></div>
+        <div class="gallery-item"><img src="images/car4.jpg" alt="Car 4"></div>
+        <div class="gallery-item"><img src="images/car5.jpg" alt="Car 5"></div>
+        <div class="gallery-item"><img src="images/car6.jpg" alt="Car 5"></div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
   <section id="contact">
     <div class="contact-container">
       <h2>Contact Me</h2>
@@ -111,7 +121,6 @@
       </form>
     </div>
   </section>
-  
 
   <script src="script.js"></script>
 </body>
